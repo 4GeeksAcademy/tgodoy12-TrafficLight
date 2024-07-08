@@ -8,7 +8,7 @@ import Light from "./light";
 
 		function changeBright(color) {
 			setCurrentColor(color);
-			
+			console.log(color);
 		}
 		
 		return (
