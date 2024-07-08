@@ -10,3 +10,37 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+button {
+    width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	border-radius: 50%;
+}
+
+.red{
+    background: red;
+    border-color: red;
+}
+
+.yellow{
+    background: yellow;
+    border-color: yellow;
+}
+
+.green{
+    background: green;
+    border-color: green;
+}
+.green.bright {
+    opacity: 1;
+    box-shadow: 0 0 30px 10px rgb(24, 204, 24);
+}
+.red.bright {
+    opacity: 1;
+    box-shadow: 0 0 30px 10px rgb(230, 52, 52);
+}
+.yellow.bright {
+    opacity: 1;
+    box-shadow: 0 0 30px 10px rgb(247, 247, 47);
+}
